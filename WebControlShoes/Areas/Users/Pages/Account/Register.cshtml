@@ -1,0 +1,63 @@
+﻿@page "/Users/Register"
+@model RegisterModel
+@{
+}
+<div class="container p-4">
+    <form method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-xl-6 col-md-5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Registrar usuarios</h1>
+
+                    </div>
+                    <div class="panel-body">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input asp-for="Input.DNI" placeholder="DNI" class="form-control" autofocus />
+                                <span asp-valitation-for="Input.DNI" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.Name" placeholder="Nombre" class="form-control" />
+                                <span asp-valitation-for="Input.Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.LastName" placeholder="Apellido" class="form-control" />
+                                <span asp-valitation-for="Input.LastName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.PhoneNumber" placeholder="Número de teléfono" class="form-control" />
+                                <span asp-valitation-for="Input.PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.Email" placeholder="Email" class="form-control" />
+                                <span asp-valitation-for="Input.Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Input.Password" placeholder="Password" class="form-control" />
+                                <span asp-valitation-for="Input.Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                @Html.DropDownList("Input.Role", new SelectList(Model.Input.rolesLista, "Text", "Text"), "Seleccionar un rol", new { @class = "form-control" })
+                                
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-danger">@Html.DisplayFor(m => m.Input.ErrorMessage)</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
