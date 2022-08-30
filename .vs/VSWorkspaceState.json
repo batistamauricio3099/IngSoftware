@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebControlShoes"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\WebControlShoes\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
