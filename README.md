@@ -4,5 +4,9 @@ Este repositorio está creado para poder realizar el TP N°1 de la materia Ingenie
 --- UTN - FRT ---
 ** Grupo 11 **
 Integrantes:
-* Boggio Justino - 50064
+* Arroyo, Tomas - 50729
+* Batista, Mauricio Agustín - 50086
+* Boggio, Justino - 50064
+* Cocheri, Aldo - 17970
+
 
