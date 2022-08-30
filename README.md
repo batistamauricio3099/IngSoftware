@@ -1,11 +1,11 @@
 # IngSoftware
-Este repositorio está creado para poder realizar el TP N°1 de la materia Ingenieria del Software.
+Este repositorio estÃ¡ creado para poder realizar el TP NÂ°1 de la materia Ingenieria del Software.
 
 --- UTN - FRT ---
 ** Grupo 11 **
 Integrantes:
 * Arroyo, Tomas - 50729
-* Batista, Mauricio Agustín - 50086
+* Batista, Mauricio AgustÃ­n - 50086
 * Boggio, Justino - 50064
-* Cano, Walter Julain - 50100
+* Cano, Walter Julian - 50100
 * Cocheri, Aldo - 17970
