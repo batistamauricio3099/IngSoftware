@@ -7,6 +7,5 @@ Integrantes:
 * Arroyo, Tomas - 50729
 * Batista, Mauricio Agustín - 50086
 * Boggio, Justino - 50064
+* Cano, Walter Julain - 50100
 * Cocheri, Aldo - 17970
-
-
