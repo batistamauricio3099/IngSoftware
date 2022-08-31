@@ -6,3 +6,8 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+<<<<<<< HEAD
+=======
+build_property.RootNamespace = WebControlShoes
+build_property.ProjectDir = C:\ProyectosSoftware\WebControlShoes\github\WebControlShoes\
+>>>>>>> 49981a60fc6ff9ae19c7851f3e5cb075e32e4196
