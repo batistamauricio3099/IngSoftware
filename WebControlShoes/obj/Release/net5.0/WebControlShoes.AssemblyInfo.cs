@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WebControlShoes-0501D119-94B8-44A0-B212-30F780E47AC4")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebControlShoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
