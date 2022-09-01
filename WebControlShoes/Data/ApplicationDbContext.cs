@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using WebControlShoes.Areas.Users.Models;
+using WebControlShoes.Models;
 
 namespace WebControlShoes.Data
 {
@@ -14,5 +15,7 @@ namespace WebControlShoes.Data
         {
         }
         public DbSet<TUsers> TUsers { get; set;}
+
+        public DbSet<Colours> Colours { get; set; }
     }
 }
