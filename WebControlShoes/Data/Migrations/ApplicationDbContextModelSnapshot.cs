@@ -242,6 +242,22 @@ namespace WebControlShoes.Data.Migrations
                     b.ToTable("TUsers");
                 });
 
+            modelBuilder.Entity("WebControlShoes.Models.Colours", b =>
+                {
+                    b.Property<int>("IdColours")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdColours");
+
+                    b.ToTable("Colours");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
