@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebControlShoes.Models.Colours>
+﻿@model IEnumerable<WebControlShoes.Models.Modelos>
 @{
     ViewData["Title"] = "Lista de modelos";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -42,8 +42,8 @@
                             <td>@item.SKU</td>
                             <td>@item.Description</td>
                             <td>
-                                <a asp-controller="Models" asp-action="Edit" asp-route-id="@item.SKU" class="btn btn-warning">Editar</a>
-                                <a asp-controller="Models" asp-action="Delete" asp-route-id="@item.SKU" class="btn btn-danger">Eliminar</a>
+                                <a asp-controller="Modelos" asp-action="Edit" asp-route-id="@item.SKU" class="btn btn-warning">Editar</a>
+                                <a asp-controller="Modelos" asp-action="Delete" asp-route-id="@item.SKU" class="btn btn-danger">Eliminar</a>
                             </td>
                         </tr>
                     }

@@ -8,19 +8,19 @@ using WebControlShoes.Models;
 
 namespace WebControlShoes.Controllers
 {
-    public class ModelsController : Controller
+    public class ModelosController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ModelsController(ApplicationDbContext context)
+        public ModelosController(ApplicationDbContext context)
         {
             _context = context;
         }
         //HTTP Get Index
-        public IActionResult Models()
+        public IActionResult Modelos()
         {
-            IEnumerable<Models> listModels = _context.Models;
-            return View(listModels);
+            IEnumerable<Modelos> listModelos = _context.Modelos;
+            return View(listModelos);
         }
         //HTTP Get Create
         public IActionResult Create()
@@ -31,16 +31,16 @@ namespace WebControlShoes.Controllers
         //HTTP Post Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Models model)
+        public IActionResult Create(Modelos modelo)
         {
             if (ModelState.IsValid)
             {
-                _context.Models.Add(model);
+                _context.Modelos.Add(modelo);
                 _context.SaveChanges();
 
                 TempData["mensaje"] = "El modelo se ha creado correctamente";
 
-                return RedirectToAction("Models");
+                return RedirectToAction("Modelos");
             }
 
             return View();
@@ -55,28 +55,28 @@ namespace WebControlShoes.Controllers
             }
 
             //Obtener el color
-            var model = _context.Models.Find(SKU);
+            var modelo = _context.Modelos.Find(SKU);
 
-            if(model == null)
+            if(modelo == null)
             {
                 return NotFound();
             }
 
-            return View(model);
+            return View(modelo);
         }
 
         //HTTP Post Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Models model)
+        public IActionResult Edit(Modelos modelo)
         {
             if (ModelState.IsValid)
             {
-                _context.Models.Update(model);
+                _context.Models.Update(modelo);
                 _context.SaveChanges();
 
                 TempData["mensaje"] = "El modelo se ha actualizado correctamente";
-                return RedirectToAction("Models");
+                return RedirectToAction("Modelos");
             }
 
             return View();
@@ -92,7 +92,7 @@ namespace WebControlShoes.Controllers
             }
 
             //Obtener el modelo
-            var modelo = _context.Models.Find(SKU);
+            var modelo = _context.Modelos.Find(SKU);
 
             if (modelo == null)
             {
@@ -106,20 +106,20 @@ namespace WebControlShoes.Controllers
         //HTTP Post Delete
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteModels(int? SKU)
+        public IActionResult DeleteModelos(int? SKU)
         {
             //Obtener color por id
-            var model = _context.Colours.Find(SKU);
+            var modelo = _context.Colours.Find(SKU);
 
-            if (model == null)
+            if (modelo == null)
             {
                 return NotFound();
             }
-            _context.Models.Remove(model);
+            _context.Modelos.Remove(modelo);
             _context.SaveChanges();
 
             TempData["mensaje"] = "El modelo se ha eliminado correctamente";
-            return RedirectToAction("Models");
+            return RedirectToAction("Modelos");
         }
 
     }

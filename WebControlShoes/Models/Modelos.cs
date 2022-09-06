@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebControlShoes.Models
 {
-    public class Models
+    public class Modelos
     {
         [Key]
         public int SKU { get; set; }

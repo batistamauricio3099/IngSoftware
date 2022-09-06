@@ -491,3 +491,5 @@ D:\UTN\4° Año\Ingeniería del Software\TP N°1\Codigo\WebControlShoes\obj\Debu
 D:\UTN\4° Año\Ingeniería del Software\TP N°1\Codigo\WebControlShoes\obj\Debug\net5.0\WebControlShoes.pdb
 D:\UTN\4° Año\Ingeniería del Software\TP N°1\Codigo\WebControlShoes\obj\Debug\net5.0\WebControlShoes.genruntimeconfig.cache
 d:\utn\4° año\ingeniería del software\tp n°1\codigo\WebControlShoes\obj\Debug\net5.0\Razor\Views\Colours\Colours.cshtml.g.cs
+C:\Users\Usuario\Source\Repos\IngSoftware\WebControlShoes\obj\Debug\net5.0\WebControlShoes.dll
+C:\Users\Usuario\Source\Repos\IngSoftware\WebControlShoes\obj\Debug\net5.0\WebControlShoes.pdb

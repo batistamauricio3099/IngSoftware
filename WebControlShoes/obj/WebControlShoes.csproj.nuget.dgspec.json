@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UTN\\4° Año\\Ingeniería del Software\\TP N°1\\Codigo\\WebControlShoes\\WebControlShoes.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\IngSoftware\\WebControlShoes\\WebControlShoes.csproj": {}
   },
   "projects": {
-    "D:\\UTN\\4° Año\\Ingeniería del Software\\TP N°1\\Codigo\\WebControlShoes\\WebControlShoes.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\IngSoftware\\WebControlShoes\\WebControlShoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UTN\\4° Año\\Ingeniería del Software\\TP N°1\\Codigo\\WebControlShoes\\WebControlShoes.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\IngSoftware\\WebControlShoes\\WebControlShoes.csproj",
         "projectName": "WebControlShoes",
-        "projectPath": "D:\\UTN\\4° Año\\Ingeniería del Software\\TP N°1\\Codigo\\WebControlShoes\\WebControlShoes.csproj",
-        "packagesPath": "C:\\Users\\Justino\\.nuget\\packages\\",
-        "outputPath": "D:\\UTN\\4° Año\\Ingeniería del Software\\TP N°1\\Codigo\\WebControlShoes\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\IngSoftware\\WebControlShoes\\WebControlShoes.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\IngSoftware\\WebControlShoes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Justino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "net5.0": {
@@ -71,7 +75,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
